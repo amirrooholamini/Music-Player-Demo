@@ -78,7 +78,7 @@ public class MohsenTitle extends LinearLayout {
         paint.setTextAlign(Paint.Align.CENTER);
         paint.setTypeface(App.mohsenTitleFont);
         //paint.setShadowLayer(1, 2, 2, Color.parseColor("#000000"));
-            Log.i("LOGGG","hello");
+        // COMMENT FOR GIT
             canvas.drawText(name, width / 2, height / 2 - (paint.ascent() + paint.descent()) / 2, paint);
         if (moveAlpha > 0) {
             paint.setAlpha(moveAlpha);
